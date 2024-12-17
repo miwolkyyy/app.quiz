@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-open">
+      <div class="container">
+        <div class="quest">
+          <p id="quest"></p>
+        </div>
+        <div class="ans">
+          <ul class="ansers">
+            <li>
+              <div class="items">
+                <input type="radio" name="choices" data-id="0" />
+                <label class="item1" for="choice0">answer 1</label>
+                <input type="radio" name="choices" data-id="1" />
+                <label class="item2" for="choice1">answer 2</label>
+              </div>
+              <div class="items">
+                <input type="radio" name="choices" data-id="2" />
+                <label class="item3" for="choice2">answer 3</label>
+                <input type="radio" name="choices" data-id="3" />
+                <label class="item4" for="choice3">answer 4</label>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="btn">
+          <button class="next">next</button>
+        </div>
+      </div>
+    </div>
+    <div class="quiz-end hide animate__bounce">
+      <h2>quiz selesai</h2>
+      <p>point kamu</p>
+    </div>
+    <script src="app.js"></script>
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
